@@ -1,4 +1,5 @@
 # vbqmclient 
+Windows vb port of qmclient
 
   START-HISTORY (vbqmclient):
   
