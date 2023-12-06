@@ -29,7 +29,8 @@ Windows vb port of qmclient
       (char*)src = p + 1;
       
   With
-		src = p + 1;
+      
+      src = p + 1;
   
   Where src is defined as type BSTR.
   
