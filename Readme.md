@@ -8,7 +8,7 @@ Windows vb port of qmclient
   This version supports both QMCall and QMCallx 
   Use QMGetArg to access returned values from QMcallx calls
   
-  Warning vbqmclient does not maintian a storage are for Getarg parameters for each session. Using Callx will "overwrite" the previous Callx
+  Warning vbqmclient does not maintian a storage area for Getarg parameters for each session. Using Callx will "overwrite" the previous Callx
   parameters regardless of session number.
   
   I had to add ALIGN2 to the packet structures used when sending / receiving data from the server. Apparently C++ builder takes liberty with how
